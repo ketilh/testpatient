@@ -42,7 +42,7 @@ private static final Logger LOG = LoggerFactory.getLogger(StreetnamesController.
 	
 	@PostMapping("/addstreet")
 	public Streetname createStreetname(@Validated @RequestBody Streetname name) {
-		LOG.debug("saving Streetname " + name);
+		LOG.info("saving Streetname " + name);
 	    return streetnameRepository.save(name);
 	}
 }

@@ -75,6 +75,7 @@ public class NamesController {
 	@PutMapping("name")
 	public ResponseEntity<Name> updateName(@RequestBody Name name) {
 		nameRepository.save(name);
+		LOG.info("Updating ");
 		return new ResponseEntity<Name>(name, HttpStatus.OK);
 	}
 	
