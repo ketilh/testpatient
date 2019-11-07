@@ -78,6 +78,4 @@ public class NamesController {
 		LOG.info("Updating ");
 		return new ResponseEntity<Name>(name, HttpStatus.OK);
 	}
-	
-	
 }
