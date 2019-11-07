@@ -71,7 +71,7 @@ public class NamesController {
 		return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
 	}
 	
-	// also saves new ones right now... 
+	// also saves new ones right now.....
 	@PutMapping("name")
 	public ResponseEntity<Name> updateName(@RequestBody Name name) {
 		nameRepository.save(name);
