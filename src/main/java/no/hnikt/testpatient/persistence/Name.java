@@ -33,8 +33,7 @@ public class Name implements Serializable {
 	
 	@Column(name="female")
 	private boolean isFemale; 
-	
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -68,5 +67,6 @@ public class Name implements Serializable {
 	}
 
 	private static final long serialVersionUID = 1984672015546169351L;
+
 
 }

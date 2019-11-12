@@ -1,6 +1,7 @@
 package no.hnikt.testpatient.model;
 
 public enum Education {
+	KINDERGARTEN(Integer.valueOf(0), "Barnehage"),
 	PRIMARY(Integer.valueOf(1), "Grunnskole"),
 	BACHELOR(Integer.valueOf(2), "Høyskole/Bachelor"),
 	// TODO check and add the rest
